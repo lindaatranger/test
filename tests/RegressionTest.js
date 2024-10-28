@@ -2,7 +2,7 @@ const { Builder, By, until } = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
 const assert = require('assert');
 
-describe('Selenium Sample Test', function() {
+describe('Regression Test', function() {
     let driver;
 
     // Set the timeout for the tests (optional)
